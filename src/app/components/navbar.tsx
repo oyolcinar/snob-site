@@ -6,6 +6,7 @@ import Cart from '../../../public/logos/cart.svg';
 import Instagram from '../../../public/logos/instagram1.svg';
 import Facebook from '../../../public/logos/facebook1.svg';
 import Twitter from '../../../public/logos/twitter1.svg';
+import HamburgerIcon from '../../../public/logos/hamburger.svg';
 import { anton } from '../fonts';
 
 interface NavbarProps {
@@ -14,22 +15,28 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = () => {
   return (
-    <nav className='flex justify-between items-center sm:h-[92px] shadow-md opacity-85 bg-white text-black sticky top-0'>
-      <div className='flex justify-start items-center'>
-        <div className='sm:ml-[46px]'>
+    <nav className='flex justify-between items-center h-[92px] shadow-md opacity-85 bg-white text-black sticky top-0'>
+      <div className='flex justify-between w-full lg:justify-start items-center'>
+        <div className='lg:hidden ml-[46px]'>
+          <Image src={Cart} alt='' width={32} height={27} />
+        </div>
+        <div className='lg:ml-[46px]'>
           <Image src={Logo} alt='' width={139} height={79} />
         </div>
-        <div className={`${anton.className} text-mainText sm:ml-[46px]`}>
-          <div className='flex justify-between items-center gap-[60px] h-[29px]'>
-            <Link href='/menu'>MENU</Link>
-            <Link href='/deals'>DEALS</Link>
-            <Link href='/rewards'>REWARDS</Link>
-            <Link href='/about'>ABOUT</Link>
-            <Link href='/contact'>CONTACT</Link>
-          </div>
+        <div className='lg:hidden mr-[46px]'>
+          <Image src={HamburgerIcon} alt='Menu' width={25} height={25} />
+        </div>
+        <div
+          className={`${anton.className} text-mainText md:mx-[46px] hidden lg:flex justify-between items-center gap-[60px] h-[29px]`}
+        >
+          <Link href='/menu'>MENU</Link>
+          <Link href='/deals'>DEALS</Link>
+          <Link href='/rewards'>REWARDS</Link>
+          <Link href='/about'>ABOUT</Link>
+          <Link href='/contact'>CONTACT</Link>
         </div>
       </div>
-      <div className='flex justify-between items-center gap-[50px]'>
+      <div className='hidden lg:flex justify-between items-center gap-[50px]'>
         <div className='flex justify-between items-center gap-[21px]'>
           <Image src={Instagram} alt='' width={19} height={19} />
           <Image src={Facebook} alt='' width={19} height={19} />
