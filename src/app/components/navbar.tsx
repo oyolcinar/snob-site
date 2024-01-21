@@ -15,7 +15,7 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = () => {
   return (
-    <nav className='flex justify-between items-center h-[92px] opacity-85 bg-white text-black sticky top-0'>
+    <nav className='flex justify-between items-center h-[92px] opacity-85 bg-white text-black sticky top-0 z-10'>
       <div className='flex justify-between w-full lg:justify-start items-center'>
         <div className='lg:hidden ml-[46px]'>
           <Image src={Cart} alt='' width={32} height={27} />

@@ -10,6 +10,9 @@ const config: Config = {
     extend: {
       colors: {
         mainText: '#3F3B3C',
+        secondaryText: '#FCC2BE',
+        bannerColor: '#D0F4E8',
+        dividerColor: '#93BCAD',
         footerColor: '#F7DEE1',
       },
       backgroundImage: {
