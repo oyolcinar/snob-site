@@ -17,13 +17,13 @@ const Navbar: React.FC<NavbarProps> = () => {
   return (
     <nav className='flex justify-between items-center h-[92px] opacity-85 bg-white text-black sticky top-0 z-10'>
       <div className='flex justify-between w-full lg:justify-start items-center'>
-        <div className='lg:hidden ml-[46px]'>
+        <div className='lg:hidden ml-[26px] lg:ml-[46px]'>
           <Image src={Cart} alt='' width={32} height={27} />
         </div>
         <div className='lg:ml-[46px]'>
           <Image src={Logo} alt='' width={139} height={79} />
         </div>
-        <div className='lg:hidden mr-[46px]'>
+        <div className='lg:hidden mr-[26px] lg:mr-[46px]'>
           <Image src={HamburgerIcon} alt='Menu' width={25} height={25} />
         </div>
         <div

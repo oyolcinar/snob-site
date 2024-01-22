@@ -11,26 +11,39 @@ import Landing7 from '../../public/images/landing7.svg';
 import Landing8 from '../../public/images/landing8.svg';
 import Landing9 from '../../public/images/landing9.svg';
 import Landing9Rotate from '../../public/images/landing9Rotate.svg';
+import Landing1Mobile from '../../public/images/landing1Mobile.svg';
 import LogoWhite from '../../public/logos/SNOBSVGWHITELOGO1.svg';
 
 export default function Home() {
   return (
     <main className='bg-white'>
-      <div className='w-full mt-[-92px] relative flex justify-center items-center'>
-        <Image src={Landing1} alt='' sizes='100vw' />
+      <div className='hidden md:w-full mt-[-92px] md:relative md:flex md:justify-center md:items-center'>
+        <Image src={Landing1} alt='' sizes='100vw' width={2000} />
         <div className='absolute m-[100px] mt-[192px] lg:m-0'>
           <Image src={LogoWhite} alt='' width={868} height={495} />
         </div>
       </div>
-      <div className='flex flex-col justify-center items-center gap-[40px] py-[40px]'>
-        <div className={`${amatic.className} text-secondaryText text-8xl`}>
+      <div className='md:hidden w-full mt-[-92px] relative flex justify-center items-center'>
+        <Image src={Landing1Mobile} alt='' sizes='100vw' width={2000} />
+        <div className='absolute m-[40px] mt-[142px] lg:m-0'>
+          <Image src={LogoWhite} alt='' width={868} height={495} />
+        </div>
+      </div>
+      <div className='flex flex-col justify-center items-center gap-[20px] md:gap-[40px] py-[40px]'>
+        <div
+          className={`${amatic.className} text-secondaryText text-center text-6xl md:text-8xl px-[40px] lg:p-0`}
+        >
           ENJOY SNOB EXPERIENCE
         </div>
         <div
-          className={`${antonio.className} text-mainText text-xl flex flex-col justify-center items-center`}
+          className={`${antonio.className} text-mainText text-base px-[10px] md:p-0 md:text-xl flex flex-col justify-center items-center`}
         >
           <div>ENJOY A RICH VARIETY OF ACAI BOWLS, SMOOTHIES,</div>
-          <div>FRESH JUICES, PLANT-BASED SNACKS AND DELICIOUS DESSERTS</div>
+          <div className='hidden md:block'>
+            FRESH JUICES, PLANT-BASED SNACKS AND DELICIOUS DESSERTS
+          </div>
+          <div className='md:hidden'>FRESH JUICES, PLANT-BASED SNACKS</div>
+          <div className='md:hidden'>AND DELICIOUS DESSERTS</div>
         </div>
       </div>
       <div
@@ -201,7 +214,7 @@ export default function Home() {
         <Image src={Landing9} alt='' />
         <div className='absolute inset-0 flex'>
           <div className='hidden lg:block lg:w-1/2'></div>
-          <div className='w-full w-1/2 p-[40px] flex flex-col justify-center items-start gap-[20px]'>
+          <div className='w-full lg:w-1/2 p-[40px] flex flex-col justify-center items-start gap-[20px]'>
             <div
               className={`${amatic.className} text-mainText text-[114px] font-semibold`}
             >
@@ -229,14 +242,14 @@ export default function Home() {
         <Image src={Landing9Rotate} alt='' width={2000} />
         <div className='absolute inset-0 flex'>
           <div className='hidden lg:block lg:w-full lg:w-1/2'></div>
-          <div className='w-full lg:w-1/2 p-[40px] flex flex-col justify-center items-center lg:items-start gap-[30px]'>
+          <div className='w-full lg:w-1/2 p-[40px] flex flex-col justify-center items-center lg:items-start'>
             <div
-              className={`${amatic.className} text-mainText text-[114px] font-semibold mt-[200px]`}
+              className={`${amatic.className} text-mainText text-[90px] font-semibold mt-[200px]`}
             >
               SNOB?
             </div>
             <div
-              className={`${antonio.className} text-mainText text-xl text-center lg:text-start leading-10`}
+              className={`${antonio.className} text-mainText text-sm text-center lg:text-start leading-10`}
             >
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
               asperiores doloribus earum labore nesciunt, consectetur cum iusto,
@@ -244,7 +257,7 @@ export default function Home() {
               voluptas dignissimos perferendis tenetur aliquam!
             </div>
             <div
-              className={`${antonio.className} text-mainText text-xl text-center lg:text-start leading-10`}
+              className={`${antonio.className} text-mainText text-sm text-center lg:text-start leading-10`}
             >
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Recusandae quos tempora qui temporibus rerum, dolore nam
