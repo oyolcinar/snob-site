@@ -26,6 +26,7 @@ const config: Config = {
         buttonPinkThree: '#F7DEE1',
         landingBeige: '#FCEBF3',
         buttonGreenThree: '#C3E9E9',
+        selectColor: '#EF5E84',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
