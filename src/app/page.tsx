@@ -50,33 +50,47 @@ export default function Home() {
       <div
         className={`${bebas.className} py-[16px] w-full bg-bannerColor flex justify-center items-center text-[50px] gap-[16px] flex-wrap`}
       >
-        <div className='cursor-pointer hover:text-selectColor transition duration-300'>
-          SHOTS
-        </div>
+        <Link href='/menu#shots-juices'>
+          <div className='cursor-pointer hover:text-selectColor transition duration-300'>
+            SHOTS
+          </div>
+        </Link>
         <div className='bg-dividerColor w-[8px] h-[50px]'></div>
-        <div className='cursor-pointer hover:text-selectColor transition duration-300'>
-          JUICES
-        </div>
+        <Link href='/menu#shots-juices'>
+          <div className='cursor-pointer hover:text-selectColor transition duration-300'>
+            JUICES
+          </div>
+        </Link>
         <div className='bg-dividerColor w-[8px] h-[50px]'></div>
-        <div className='cursor-pointer hover:text-selectColor transition duration-300'>
-          SMOOTHIES
-        </div>
+        <Link href='/menu#smoothies'>
+          <div className='cursor-pointer hover:text-selectColor transition duration-300'>
+            SMOOTHIES
+          </div>
+        </Link>
         <div className='bg-dividerColor w-[8px] h-[50px]'></div>
-        <div className='cursor-pointer hover:text-selectColor transition duration-300'>
-          BOWLS
-        </div>
+        <Link href='/menu#bowls'>
+          <div className='cursor-pointer hover:text-selectColor transition duration-300'>
+            BOWLS
+          </div>
+        </Link>
         <div className='bg-dividerColor w-[8px] h-[50px]'></div>
-        <div className='cursor-pointer hover:text-selectColor transition duration-300'>
-          SALADS
-        </div>
+        <Link href='/menu#salads'>
+          <div className='cursor-pointer hover:text-selectColor transition duration-300'>
+            SALADS
+          </div>
+        </Link>
         <div className='bg-dividerColor w-[8px] h-[50px]'></div>
-        <div className='cursor-pointer hover:text-selectColor transition duration-300'>
-          BAKERY
-        </div>
+        <Link href='/menu#bakery-sweets'>
+          <div className='cursor-pointer hover:text-selectColor transition duration-300'>
+            BAKERY
+          </div>
+        </Link>
         <div className='bg-dividerColor w-[8px] h-[50px]'></div>
-        <div className='cursor-pointer hover:text-selectColor transition duration-300'>
-          SWEETS
-        </div>
+        <Link href='/menu#bakery-sweets'>
+          <div className='cursor-pointer hover:text-selectColor transition duration-300'>
+            SWEETS
+          </div>
+        </Link>
       </div>
       <div className='flex flex-col lg:flex-row'>
         <div className='w-full lg:w-1/2 order-last lg:order-first bg-secondaryText p-[40px] flex flex-col lg:items-end lg:justify-center gap-[40px] items-center'>

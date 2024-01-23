@@ -32,6 +32,7 @@ const config: Config = {
         menuYellow: '#FCF2C8',
         menuPinkDivider: '#C699A4',
         menuGreenDivider: '#93BCAD',
+        menuYellowDivider: '#CCC39F',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
