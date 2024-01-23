@@ -27,6 +27,11 @@ const config: Config = {
         landingBeige: '#FCEBF3',
         buttonGreenThree: '#C3E9E9',
         selectColor: '#EF5E84',
+        menuPink: '#FCE3EB',
+        menuGreen: '#D0F4E8',
+        menuYellow: '#FCF2C8',
+        menuPinkDivider: '#C699A4',
+        menuGreenDivider: '#93BCAD',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
