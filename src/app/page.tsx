@@ -103,9 +103,9 @@ export default function Home() {
           <div
             className={`${anton.className} flex justify-center items-center w-[156px] h-[36px] bg-bannerColor border-2 rounded-lg border-mainText text-mainText text-xl cursor-pointer hover:bg-selectColor hover:text-white transition duration-300`}
           >
-            <Link href='/menu'>
+            <a href='/menu#shots-juices'>
               <div>SEE THE MENU</div>
-            </Link>
+            </a>
           </div>
         </div>
         <div className='w-full lg:w-1/2 lg:order-last order-first'>
@@ -126,9 +126,9 @@ export default function Home() {
           <div
             className={`${anton.className} flex justify-center items-center w-[156px] h-[36px] bg-buttonPink border-2 rounded-lg border-mainText text-mainText text-xl cursor-pointer hover:bg-selectColor hover:text-white transition duration-300`}
           >
-            <Link href='/menu'>
+            <a href='/menu#smoothies'>
               <div>SEE THE MENU</div>
-            </Link>
+            </a>
           </div>
         </div>
         <div className='w-full lg:w-1/2 lg:order-first order-first'>
@@ -149,9 +149,9 @@ export default function Home() {
           <div
             className={`${anton.className} flex justify-center items-center w-[156px] h-[36px] bg-buttonGreen border-2 rounded-lg border-mainText text-mainText text-xl cursor-pointer hover:bg-selectColor hover:text-white transition duration-300`}
           >
-            <Link href='/menu'>
+            <a href='/menu#bowls'>
               <div>SEE THE MENU</div>
-            </Link>
+            </a>
           </div>
         </div>
         <div className='w-full lg:w-1/2 lg:order-last order-first'>
@@ -172,9 +172,9 @@ export default function Home() {
           <div
             className={`${anton.className} flex justify-center items-center w-[156px] h-[36px] bg-buttonPinkTwo border-2 rounded-lg border-mainText text-mainText text-xl cursor-pointer hover:bg-selectColor hover:text-white transition duration-300`}
           >
-            <Link href='/menu'>
+            <a href='/menu#bowls'>
               <div>SEE THE MENU</div>
-            </Link>
+            </a>
           </div>
         </div>
         <div className='w-full lg:w-1/2 lg:order-first order-first'>
@@ -195,9 +195,9 @@ export default function Home() {
           <div
             className={`${anton.className} flex justify-center items-center w-[156px] h-[36px] bg-buttonYellow border-2 rounded-lg border-mainText text-mainText text-xl cursor-pointer hover:bg-selectColor hover:text-white transition duration-300`}
           >
-            <Link href='/menu'>
+            <a href='/menu#bowls'>
               <div>SEE THE MENU</div>
-            </Link>
+            </a>
           </div>
         </div>
         <div className='w-full lg:w-1/2 lg:order-last order-first'>
@@ -218,9 +218,9 @@ export default function Home() {
           <div
             className={`${anton.className} flex justify-center items-center w-[156px] h-[36px] bg-buttonPinkThree border-2 rounded-lg border-mainText text-mainText text-xl cursor-pointer hover:bg-selectColor hover:text-white transition duration-300`}
           >
-            <Link href='/menu'>
+            <a href='/menu#salads'>
               <div>SEE THE MENU</div>
-            </Link>
+            </a>
           </div>
         </div>
         <div className='w-full lg:w-1/2 lg:order-first order-first'>
@@ -241,9 +241,9 @@ export default function Home() {
           <div
             className={`${anton.className} flex justify-center items-center w-[156px] h-[36px] bg-buttonGreenThree border-2 rounded-lg border-mainText text-mainText text-xl cursor-pointer hover:bg-selectColor hover:text-white transition duration-300`}
           >
-            <Link href='/menu'>
+            <a href='/menu#bakery-sweets'>
               <div>SEE THE MENU</div>
-            </Link>
+            </a>
           </div>
         </div>
         <div className='w-full lg:w-1/2 lg:order-last order-first'>
