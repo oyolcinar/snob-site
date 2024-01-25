@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import Link from 'next/link';
+import SectionLink from './components/sectionLink';
 import { bebas, antonio, amatic, anton } from './fonts';
 
 import Landing1 from '../../public/images/landing1.svg';
@@ -13,7 +15,6 @@ import Landing9 from '../../public/images/landing9.svg';
 import Landing9Rotate from '../../public/images/landing9Rotate.svg';
 import Landing1Mobile from '../../public/images/landing1Mobile.svg';
 import LogoWhite from '../../public/logos/SNOBSVGWHITELOGO1.svg';
-import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -50,47 +51,43 @@ export default function Home() {
       <div
         className={`${bebas.className} py-[16px] w-full bg-bannerColor flex justify-center items-center text-[50px] gap-[16px] flex-wrap`}
       >
-        <Link href='/menu#shots-juices'>
-          <div className='cursor-pointer hover:text-selectColor transition duration-300'>
-            SHOTS
-          </div>
-        </Link>
+        <SectionLink
+          sectionId='shots-juices'
+          label='SHOTS'
+          navigateTo='menu#shots-juices'
+        />
         <div className='bg-dividerColor w-[8px] h-[50px]'></div>
-        <Link href='/menu#shots-juices'>
-          <div className='cursor-pointer hover:text-selectColor transition duration-300'>
-            JUICES
-          </div>
-        </Link>
+        <SectionLink
+          sectionId='shots-juices'
+          label='JUICES'
+          navigateTo='menu#shots-juices'
+        />
         <div className='bg-dividerColor w-[8px] h-[50px]'></div>
-        <Link href='/menu#smoothies'>
-          <div className='cursor-pointer hover:text-selectColor transition duration-300'>
-            SMOOTHIES
-          </div>
-        </Link>
+        <SectionLink
+          sectionId='smoothies'
+          label='SMOOTHIES'
+          navigateTo='menu#smoothies'
+        />
         <div className='bg-dividerColor w-[8px] h-[50px]'></div>
-        <Link href='/menu#bowls'>
-          <div className='cursor-pointer hover:text-selectColor transition duration-300'>
-            BOWLS
-          </div>
-        </Link>
+        <SectionLink sectionId='bowls' label='BOWLS' navigateTo='menu#bowls' />
         <div className='bg-dividerColor w-[8px] h-[50px]'></div>
-        <Link href='/menu#salads'>
-          <div className='cursor-pointer hover:text-selectColor transition duration-300'>
-            SALADS
-          </div>
-        </Link>
+        <SectionLink
+          sectionId='salads'
+          label='SALADS'
+          navigateTo='menu#salads'
+        />
         <div className='bg-dividerColor w-[8px] h-[50px]'></div>
-        <Link href='/menu#bakery-sweets'>
-          <div className='cursor-pointer hover:text-selectColor transition duration-300'>
-            BAKERY
-          </div>
-        </Link>
+        <SectionLink
+          sectionId='bakery-sweets'
+          label='BAKERY'
+          navigateTo='menu#bakery-sweets'
+        />
         <div className='bg-dividerColor w-[8px] h-[50px]'></div>
-        <Link href='/menu#bakery-sweets'>
-          <div className='cursor-pointer hover:text-selectColor transition duration-300'>
-            SWEETS
-          </div>
-        </Link>
+        <SectionLink
+          sectionId='bakery-sweets'
+          label='SWEETS'
+          navigateTo='menu#bakery-sweets'
+        />
       </div>
       <div className='flex flex-col lg:flex-row'>
         <div className='w-full lg:w-1/2 order-last lg:order-first bg-secondaryText p-[40px] flex flex-col lg:items-end lg:justify-center gap-[40px] items-center'>
