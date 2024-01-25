@@ -292,7 +292,7 @@ export default function Home() {
               SNOB?
             </div>
             <div
-              className={`${antonio.className} text-mainText text-sm text-center lg:text-start leading-10`}
+              className={`${antonio.className} text-mainText text-xs text-center lg:text-start leading-10`}
             >
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
               asperiores doloribus earum labore nesciunt, consectetur cum iusto,
@@ -300,7 +300,7 @@ export default function Home() {
               voluptas dignissimos perferendis tenetur aliquam!
             </div>
             <div
-              className={`${antonio.className} text-mainText text-sm text-center lg:text-start leading-10`}
+              className={`${antonio.className} text-mainText text-xs text-center lg:text-start leading-10`}
             >
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Recusandae quos tempora qui temporibus rerum, dolore nam

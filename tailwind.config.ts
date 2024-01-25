@@ -33,6 +33,8 @@ const config: Config = {
         menuPinkDivider: '#C699A4',
         menuGreenDivider: '#93BCAD',
         menuYellowDivider: '#CCC39F',
+        dealsButton: '#AEFBDA',
+        rewardsButton: '#F6DB8A',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

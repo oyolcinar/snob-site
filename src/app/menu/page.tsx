@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { bebas, antonio, amatic, anton } from '../fonts';
+import { Metadata } from 'next';
 
 import Logo from '../../../public/logos/SNOBLOGOFOOTER.svg';
 import LogoWhite from '../../../public/logos/SNOBSVGMENULOGO1.svg';
@@ -7,6 +8,11 @@ import Menu1 from '../../../public/images/menu1.svg';
 import Menu1Mobile from '../../../public/images/menu1mobile.svg';
 import Menu2 from '../../../public/images/menu2.svg';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'MENU',
+  description: 'SNOB',
+};
 
 export default function Menu() {
   return (
@@ -76,7 +82,7 @@ export default function Menu() {
       </div>
       <div className='flex flex-col justify-center items-center h-[1130px] bg-menuPink'>
         <div
-          className={`${bebas.className} w-[400px] absolute flex flex-col justify-center items-center text-mainText`}
+          className={`${bebas.className} w-[360px] sm:w-[400px] absolute flex flex-col justify-center items-center text-mainText`}
         >
           <div className='opacity-25' id='shots-juices'>
             <Image src={Logo} alt='' height={57} width={113} />
@@ -227,16 +233,20 @@ export default function Menu() {
             </div>
           </div>
         </div>
-        <div className={`${bebas.className} text-[261px] text-white`}>
+        <div
+          className={`${bebas.className} text-[100px] md:text-[261px] text-white`}
+        >
           JUICES
         </div>
-        <div className={`${bebas.className} text-[261px] text-white`}>
+        <div
+          className={`${bebas.className} text-[100px] md:text-[261px] text-white`}
+        >
           SMOOTHIES
         </div>
       </div>
       <div className='flex flex-col justify-center items-center h-[1130px] bg-menuGreen'>
         <div
-          className={`${bebas.className} w-[400px] absolute flex flex-col justify-center items-center text-mainText`}
+          className={`${bebas.className} w-[360px] sm:w-[400px] absolute flex flex-col justify-center items-center text-mainText`}
         >
           <div className='opacity-25' id='bowls'>
             <Image src={Logo} alt='' height={57} width={113} />
@@ -372,13 +382,15 @@ export default function Menu() {
             <div className='bg-menuGreenDivider h-[1px] my-[8px]'></div>
           </div>
         </div>
-        <div className={`${bebas.className} text-[387px] text-white`}>
+        <div
+          className={`${bebas.className} text-[160px] md:text-[387px] text-white`}
+        >
           BOWLS
         </div>
       </div>
       <div className='flex flex-col justify-center items-center h-[1130px] bg-menuYellow'>
         <div
-          className={`${bebas.className} w-[400px] absolute flex flex-col justify-center items-center text-mainText`}
+          className={`${bebas.className} w-[360px] sm:w-[400px] absolute flex flex-col justify-center items-center text-mainText`}
         >
           <div className='opacity-25'>
             <Image src={Logo} alt='' height={57} width={113} />
@@ -541,10 +553,14 @@ export default function Menu() {
             </div>
           </div>
         </div>
-        <div className={`${bebas.className} text-[260px] text-white`}>
+        <div
+          className={`${bebas.className} text-[130px] md:text-[260px] text-white`}
+        >
           SALADS
         </div>
-        <div className={`${bebas.className} text-[260px] text-white`}>
+        <div
+          className={`${bebas.className} text-[130px] md:text-[260px] text-white`}
+        >
           SWEETS
         </div>
       </div>
