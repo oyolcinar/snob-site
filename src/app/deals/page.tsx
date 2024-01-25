@@ -2,8 +2,8 @@ import Image from 'next/image';
 import { bebas, antonio, amatic, anton } from '../fonts';
 import { Metadata } from 'next';
 
-import Deals1 from '../../../public/images/deals.svg';
-import DealsMobile from '../../../public/images/dealsRotated.svg';
+import Deals1 from '../../../public/images/deals.png';
+import DealsMobile from '../../../public/images/dealsRotated.png';
 
 export const metadata: Metadata = {
   title: 'DEALS',

@@ -2,8 +2,8 @@ import Image from 'next/image';
 import { bebas, antonio, amatic, anton } from '../fonts';
 import { Metadata } from 'next';
 
-import Special1 from '../../../public/images/specials.svg';
-import SpecialMobile from '../../../public/images/specialsRotated.svg';
+import Special1 from '../../../public/images/specials.png';
+import SpecialMobile from '../../../public/images/specialsRotated.png';
 
 export const metadata: Metadata = {
   title: 'REWARDS',
@@ -47,7 +47,7 @@ export default function Rewards() {
             <div
               className={`${amatic.className} w-[424px] text-center text-white text-8xl lg:p-0 font-semibold`}
             >
-              STAY TUNED FOR THE BEST DEALS!
+              REWARDS COMING SOON!
             </div>
             <div
               className={`${antonio.className} text-mainText w-[414px] h-[40px] bg-white rounded-lg flex justify-start items-center`}

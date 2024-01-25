@@ -5,8 +5,8 @@ import { Metadata } from 'next';
 
 import Logo from '../../../public/logos/SNOBLOGOFOOTER.svg';
 import LogoWhite from '../../../public/logos/SNOBSVGMENULOGO1.svg';
-import Menu1 from '../../../public/images/menu1.svg';
-import Menu1Mobile from '../../../public/images/menu1mobile.svg';
+import Menu1 from '../../../public/images/menu1.png';
+import Menu1Mobile from '../../../public/images/menu1mobile.png';
 
 export const metadata: Metadata = {
   title: 'MENU',

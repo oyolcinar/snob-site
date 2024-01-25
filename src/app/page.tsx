@@ -3,17 +3,17 @@ import Link from 'next/link';
 import SectionLink from './components/sectionLink';
 import { bebas, antonio, amatic, anton } from './fonts';
 
-import Landing1 from '../../public/images/landing1.svg';
-import Landing2 from '../../public/images/landing2.svg';
-import Landing3 from '../../public/images/landing3.svg';
-import Landing4 from '../../public/images/landing4.svg';
-import Landing5 from '../../public/images/landing5.svg';
-import Landing6 from '../../public/images/landing6.svg';
-import Landing7 from '../../public/images/landing7.svg';
-import Landing8 from '../../public/images/landing8.svg';
-import Landing9 from '../../public/images/landing9.svg';
-import Landing9Rotate from '../../public/images/landing9Rotate.svg';
-import Landing1Mobile from '../../public/images/landing1Mobile.svg';
+import Landing1 from '../../public/images/landing1.png';
+import Landing2 from '../../public/images/landing2.png';
+import Landing3 from '../../public/images/landing3.png';
+import Landing4 from '../../public/images/landing4.png';
+import Landing5 from '../../public/images/landing5.png';
+import Landing6 from '../../public/images/landing6.png';
+import Landing7 from '../../public/images/landing7.png';
+import Landing8 from '../../public/images/landing8.png';
+import Landing9 from '../../public/images/landing9.png';
+import Landing9Rotate from '../../public/images/landing9Rotate.png';
+import Landing1Mobile from '../../public/images/landing1Mobile.png';
 import LogoWhite from '../../public/logos/SNOBSVGWHITELOGO1.svg';
 
 export default function Home() {
