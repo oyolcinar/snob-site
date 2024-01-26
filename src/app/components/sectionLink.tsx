@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import Link from 'next/link';
 
 interface SectionLinkProps {
   sectionId: string;
@@ -16,7 +15,13 @@ const SectionLink: React.FC<SectionLinkProps> = ({
   const scrollToSection = (id: string) => {
     const sectionElement = document.getElementById(id);
     if (sectionElement) {
-      sectionElement.scrollIntoView({ behavior: 'smooth' });
+      const offset = window.innerWidth >= 768 ? 120 : 0; // Offset for larger screens
+      const sectionTop =
+        sectionElement.getBoundingClientRect().top +
+        window.pageYOffset -
+        offset;
+
+      window.scrollTo({ top: sectionTop, behavior: 'smooth' });
     } else {
       console.warn(`Element with ID '${id}' not found.`);
     }

@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import SectionLink from '../components/sectionLink';
+import ScrollTopArrow from '../components/scrollTopArrow';
 import { bebas, antonio, amatic, anton } from '../fonts';
 import { Metadata } from 'next';
 
-import Logo from '../../../public/logos/SNOBLOGOFOOTER.svg';
+import Logo from '../../../public/logos/SNOBLOGOFOOTER.png';
 import LogoWhite from '../../../public/logos/SNOBSVGMENULOGO1.svg';
 import Menu1 from '../../../public/images/menu1.png';
 import Menu1Mobile from '../../../public/images/menu1mobile.png';
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
 export default function Menu() {
   return (
     <main className='bg-white'>
+      <ScrollTopArrow targetId='top' />
       <div className='hidden md:w-full mt-[-91px] md:relative md:flex md:justify-center md:items-center'>
         <Image src={Menu1} alt='' sizes='100vw' width={2000} />
         <div className='absolute m-[100px] mt-[191px] lg:m-0'>
@@ -35,7 +37,8 @@ export default function Menu() {
         </div>
       </div>
       <div
-        className={`${bebas.className} py-[16px] w-full bg-bannerColor flex justify-center items-center text-[50px] gap-[16px] flex-wrap`}
+        id='top'
+        className={`${bebas.className} py-[16px] w-full bg-bannerColor flex justify-center items-center text-[50px] gap-[16px] flex-wrap md:sticky top-[92px] z-10`}
       >
         <SectionLink sectionId='shots-juices' label='SHOTS' />
         <div className='bg-dividerColor w-[8px] h-[50px]'></div>

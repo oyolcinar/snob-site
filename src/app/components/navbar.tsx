@@ -47,7 +47,7 @@ const Navbar: React.FC<NavbarProps> = () => {
           >
             <Link
               href='/'
-              className='cursor-pointer hover:text-selectColor transition duration-300 my-[24px]'
+              className='cursor-pointer hover:text-selectColor transition duration-300 my-[10px] md:my-[24px]'
               onClick={() => setIsOpen(false)}
             >
               HOME
@@ -55,7 +55,7 @@ const Navbar: React.FC<NavbarProps> = () => {
             <div className='bg-white h-[2px] w-full'></div>
             <Link
               href='/menu'
-              className='cursor-pointer hover:text-selectColor transition duration-300 my-[24px]'
+              className='cursor-pointer hover:text-selectColor transition duration-300 my-[10px] md:my-[24px]'
               onClick={() => setIsOpen(false)}
             >
               MENU
@@ -63,7 +63,7 @@ const Navbar: React.FC<NavbarProps> = () => {
             <div className='bg-white h-[2px] w-full'></div>
             <Link
               href='/deals'
-              className='cursor-pointer hover:text-selectColor transition duration-300 my-[24px]'
+              className='cursor-pointer hover:text-selectColor transition duration-300 my-[10px] md:my-[24px]'
               onClick={() => setIsOpen(false)}
             >
               DEALS
@@ -71,7 +71,7 @@ const Navbar: React.FC<NavbarProps> = () => {
             <div className='bg-white h-[2px] w-full'></div>
             <Link
               href='/rewards'
-              className='cursor-pointer hover:text-selectColor transition duration-300 my-[24px]'
+              className='cursor-pointer hover:text-selectColor transition duration-300 my-[10px] md:my-[24px]'
               onClick={() => setIsOpen(false)}
             >
               REWARDS
@@ -79,7 +79,7 @@ const Navbar: React.FC<NavbarProps> = () => {
             <div className='bg-white h-[2px] w-full'></div>
             <Link
               href='/about'
-              className='cursor-pointer hover:text-selectColor transition duration-300 my-[24px]'
+              className='cursor-pointer hover:text-selectColor transition duration-300 my-[10px] md:my-[24px]'
               onClick={() => setIsOpen(false)}
             >
               ABOUT
@@ -87,13 +87,13 @@ const Navbar: React.FC<NavbarProps> = () => {
             <div className='bg-white h-[2px] w-full'></div>
             <Link
               href='/contact'
-              className='cursor-pointer hover:text-selectColor transition duration-300 my-[24px]'
+              className='cursor-pointer hover:text-selectColor transition duration-300 my-[10px] md:my-[24px]'
               onClick={() => setIsOpen(false)}
             >
               CONTACT
             </Link>
             <div className='bg-white h-[2px] w-full'></div>
-            <div className='flex justify-between items-center gap-[30px] my-[24px]'>
+            <div className='flex justify-between items-center gap-[30px] my-[10px] md:my-[24px]'>
               <Image
                 src={Instagram}
                 alt=''
@@ -121,7 +121,7 @@ const Navbar: React.FC<NavbarProps> = () => {
             </div>
             <div className='bg-white h-[2px] w-full'></div>
             <div
-              className={`${anton.className} flex gap-[20px] text-mainText py-[24px] text-xl`}
+              className={`${anton.className} flex gap-[20px] text-mainText py-[10px] md:py-[24px] text-xl`}
             >
               <div
                 className='w-[173px] h-[33px] border-2 border-mainText rounded-lg flex justify-center items-center bg-mainText text-white cursor-pointer hover:bg-selectColor  transition duration-300'

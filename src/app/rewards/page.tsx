@@ -41,16 +41,16 @@ export default function Rewards() {
         </div>
       </div>
       <div className='md:hidden w-full mt-[-91px] relative flex justify-center items-center'>
-        <Image src={SpecialMobile} alt='' sizes='100vw' width={2000} />
+        <Image src={SpecialMobile} alt='' />
         <div className='absolute inset-0 flex'>
-          <div className='w-full lg:w-1/2 p-[40px] flex flex-col justify-center items-center md:items-start gap-[40px] md:ml-[200px] mt-[-100px]'>
+          <div className='w-full flex flex-col justify-center items-center gap-[40px] mt-[100]'>
             <div
-              className={`${amatic.className} w-[424px] text-center text-white text-8xl lg:p-0 font-semibold`}
+              className={`${amatic.className} w-[324px] text-center text-white text-6xl font-semibold`}
             >
               REWARDS COMING SOON!
             </div>
             <div
-              className={`${antonio.className} text-mainText w-[414px] h-[40px] bg-white rounded-lg flex justify-start items-center`}
+              className={`${antonio.className} text-mainText w-[314px] h-[40px] bg-white rounded-lg flex justify-start items-center`}
             >
               <div className='text-xl ml-[16px]'>ENTER YOUR EMAIL ADDRESS</div>
             </div>

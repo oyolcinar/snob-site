@@ -251,7 +251,7 @@ export default function Home() {
         </div>
       </div>
       <div className='hidden w-full relative lg:flex'>
-        <Image src={Landing9} alt='' />
+        <Image src={Landing9} alt='' className='w-full h-auto object-cover' />
         <div className='absolute inset-0 flex'>
           <div className='hidden lg:block lg:w-1/2'></div>
           <div className='w-full lg:w-1/2 p-[40px] flex flex-col justify-center items-start gap-[20px]'>
@@ -263,17 +263,20 @@ export default function Home() {
             <div
               className={`${antonio.className} text-mainText text-lg leading-10 mr-[100px]`}
             >
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
-              asperiores doloribus earum labore nesciunt, consectetur cum iusto,
-              accusamus magni soluta perspiciatis.
+              Welcome to SNOB - New York&apos;s newest haven for smoothie, bowl,
+              and health enthusiasts! At SNOB, we believe in nourishing the body
+              and soul with the freshest, most flavorful ingredients. Our
+              meticulously crafted smoothies and bowls are more than just a
+              meal; they are a blend of art and science, designed to delight
+              your taste buds and invigorate your body.
             </div>
             <div
               className={`${antonio.className} text-mainText text-lg leading-10 mr-[100px]`}
             >
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Recusandae quos tempora qui temporibus rerum, dolore nam
-              asperiores facere illo voluptate odio voluptates aut accusamus
-              veniam molestiae saepe facilis. Beatae, itaque.
+              From the vibrant colors of our freshly prepared fruits to the
+              delicate balance of nutrients in every sip and bite, we ensure
+              that every detail contributes to an exquisite and healthy dining
+              experience.
             </div>
           </div>
         </div>
@@ -289,20 +292,22 @@ export default function Home() {
               SNOB?
             </div>
             <div
-              className={`${antonio.className} text-mainText text-xs text-center lg:text-start leading-10`}
+              className={`${antonio.className} text-mainText text-xs text-center lg:text-start leading-8`}
             >
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
-              asperiores doloribus earum labore nesciunt, consectetur cum iusto,
-              accusamus magni soluta perspiciatis. Voluptates quia a laudantium
-              voluptas dignissimos perferendis tenetur aliquam!
+              Welcome to SNOB - New York&apos;s newest haven for smoothie, bowl,
+              and health enthusiasts! At SNOB, we believe in nourishing the body
+              and soul with the freshest, most flavorful ingredients. Our
+              meticulously crafted smoothies and bowls are more than just a
+              meal; they are a blend of art and science, designed to delight
+              your taste buds and invigorate your body.
             </div>
             <div
-              className={`${antonio.className} text-mainText text-xs text-center lg:text-start leading-10`}
+              className={`${antonio.className} text-mainText text-xs text-center lg:text-start leading-8`}
             >
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Recusandae quos tempora qui temporibus rerum, dolore nam
-              asperiores facere illo voluptate odio voluptates aut accusamus
-              veniam molestiae saepe facilis. Beatae, itaque.
+              From the vibrant colors of our freshly prepared fruits to the
+              delicate balance of nutrients in every sip and bite, we ensure
+              that every detail contributes to an exquisite and healthy dining
+              experience.
             </div>
           </div>
         </div>
