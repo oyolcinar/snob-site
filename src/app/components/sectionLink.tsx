@@ -15,7 +15,7 @@ const SectionLink: React.FC<SectionLinkProps> = ({
   const scrollToSection = (id: string) => {
     const sectionElement = document.getElementById(id);
     if (sectionElement) {
-      const offset = window.innerWidth >= 768 ? 120 : 0; // Offset for larger screens
+      const offset = window.innerWidth >= 768 ? 130 : 0;
       const sectionTop =
         sectionElement.getBoundingClientRect().top +
         window.pageYOffset -
