@@ -146,7 +146,7 @@ export default function Deals() {
       <div className='lg:hidden w-full mt-[-91px] relative flex justify-center items-center'>
         <Image src={Contact1Mobile} alt='' sizes='100vw' width={2000} />
         <div className='absolute inset-0 flex'>
-          <div className='w-full flex flex-col justify-center items-center gap-[40px] mt-[120px] mx-[40px]'>
+          <div className='w-full flex flex-col justify-center items-center gap-[40px] mt-[140px] mx-[40px]'>
             <div className='w-full flex flex-col justify-center items-start gap-[10px]'>
               <div
                 className={`${antonio.className} text-[20px] text-mainText font-bold`}
@@ -261,7 +261,7 @@ export default function Deals() {
                   ></textarea>
                 </div>
               </div>
-              <div className='flex w-full justify-center items-center pb-[60px]'>
+              <div className='flex w-full justify-center items-center pb-[70px]'>
                 <div
                   className={`${anton.className} flex justify-center items-center w-[160px] h-[40px] bg-rewardsButton border-2 rounded-lg border-mainText text-mainText text-xl cursor-pointer hover:bg-selectColor hover:text-white transition duration-300`}
                 >
