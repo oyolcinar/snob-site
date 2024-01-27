@@ -261,7 +261,7 @@ export default function Deals() {
                   ></textarea>
                 </div>
               </div>
-              <div className='flex w-full justify-center items-center'>
+              <div className='flex w-full justify-center items-center pb-[60px]'>
                 <div
                   className={`${anton.className} flex justify-center items-center w-[160px] h-[40px] bg-rewardsButton border-2 rounded-lg border-mainText text-mainText text-xl cursor-pointer hover:bg-selectColor hover:text-white transition duration-300`}
                 >
@@ -270,7 +270,7 @@ export default function Deals() {
               </div>
             </div>
             <div
-              className={`${amatic.className} absolute left-[40px] bottom-0 w-[424px] text-white text-[36px]`}
+              className={`${amatic.className} absolute left-[40px] bottom-0 w-[424px] text-white text-[24px]`}
             >
               252 EAST 77TH STREET, NEW YORK, NY, 10075
             </div>
